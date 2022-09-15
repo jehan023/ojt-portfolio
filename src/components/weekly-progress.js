@@ -25,32 +25,32 @@ function WeeklyProgress() {
         {
             image: prevWeek1,
             pdf: Week1pdf,
-            title: 'Week 1'
+            title: 'Week 1 Report'
         },
         {
             image: prevWeek2,
             pdf: Week2pdf,
-            title: 'Week 2'
+            title: 'Week 2 Report'
         },
         {
             image: prevWeek3,
             pdf: Week3pdf,
-            title: 'Week 3'
+            title: 'Week 3 Report'
         },
         {
             image: prevWeek4,
             pdf: Week4pdf,
-            title: 'Week 4'
+            title: 'Week 4 Report'
         },
         {
             image: prevWeek5,
             pdf: Week5pdf,
-            title: 'Week 5'
+            title: 'Week 5 Report'
         },
         {
             image: prevWeek6,
             pdf: Week6pdf,
-            title: 'Week 6'
+            title: 'Week 6 Report'
         }
     ];
 
@@ -61,7 +61,7 @@ function WeeklyProgress() {
             slidesToSlide: 3 // optional, default to 1.
         },
         tablet: {
-            breakpoint: { max: 1024, min: 464 },
+            breakpoint: { max: 768, min: 464 },
             items: 2,
             slidesToSlide: 2 // optional, default to 1.
         },
@@ -74,13 +74,15 @@ function WeeklyProgress() {
 
 
     const ReportCards = report.map((report) =>
-        <Card className='mb-5 report-cards shadow'>
-            <Card.Body>
-                <img src={report.image} alt='Weekly Report' />
+        <Card className='mb-5 report-cards'>
+            <Card.Body className='position-relative text-center'>
+                <a target='_blank' href={report.pdf} rel="noreferrer">
+                    <img src={report.image} alt={report.title} />
+                </a>
+                <div className='position-absolute report-name py-4'>
+                    <p className='h1 m-0'>{report.title}</p>
+                </div>
             </Card.Body>
-            <Card.Footer className='text-center'>
-                <button className='pdf-view-btn'><a href={report.pdf} target="_blank" rel="noreferrer">{report.title}</a></button>
-            </Card.Footer>
         </Card>
 
     );

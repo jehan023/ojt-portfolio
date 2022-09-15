@@ -14,7 +14,7 @@ function Assessment() {
             <Card className='question-card'>
                 <Card.Body>
                     <h5>What you've learned from this experience?</h5>
-                    <div className='d-flex' >
+                    <div className='d-flex card-content'>
                         <div className='target-icon'>
                             <HiLightBulb className='icon-logo' />
                         </div>
@@ -34,7 +34,7 @@ function Assessment() {
             <Card className='question-card'>
                 <Card.Body>
                     <h5>Important Theories/Concepts acquired from the OJT Station</h5>
-                    <div className='d-flex' >
+                    <div className='d-flex card-content' >
                         <div className='target-icon '>
                             <FaReact className='react-logo icon-logo' />
                         </div>
@@ -131,7 +131,7 @@ function Random()
                         </div>
                     </div>
 
-                    <div className='d-flex mt-3'>
+                    <div className='d-flex mt-3 card-content'>
                         <div className='target-icon '>
                             <DiGit className='git-logo icon-logo' />
                         </div>
@@ -146,7 +146,7 @@ function Random()
             <Card className='question-card'>
                 <Card.Body>
                     <h5>Memorable Event During the Internship Period</h5>
-                    <div className='d-flex' >
+                    <div className='d-flex card-content' >
                         <div className='target-icon '>
                             <FaGithub className='icon-logo'/>
                         </div>
@@ -167,7 +167,7 @@ function Random()
             <Card className='question-card'>
                 <Card.Body>
                     <h5>Recommendation for the Improvement of the Internship Program</h5>
-                    <div className='d-flex' >
+                    <div className='d-flex card-content' >
                         <div className='target-icon '>
                             <AiFillReconciliation className='icon-logo'/>
                         </div>
@@ -187,7 +187,7 @@ function Random()
             <Card className='question-card'>
                 <Card.Body>
                     <h5>Advices to those who will be taking the Internship Program in the future</h5>
-                    <div className='d-flex' >
+                    <div className='d-flex card-content' >
                         
                         <div>
                             <p>

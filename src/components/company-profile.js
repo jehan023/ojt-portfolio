@@ -57,8 +57,8 @@ function CompanyProfile() {
                 </Card>
             </div>
 
-            <div className='d-flex mt-5 justify-content-between'>
-                <div className='d-block'>
+            <div className='d-flex mt-5 justify-content-between company-info'>
+                <div className='d-block com-detail'>
                     <div className='company-details d-flex'>
                         <div className='company-address'>
                             <h2><a target='_blank' className='address-map' href='https://g.page/lexmeet-legal-help-in-a-click?share' rel="noreferrer">

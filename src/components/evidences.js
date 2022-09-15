@@ -13,7 +13,7 @@ function Evidences() {
         <div className='evidences-container'>
             <h2>Evidences</h2>
 
-            <div className='d-flex'>
+            <div className='d-flex evidences-content'>
                 <Card className='docx-card'>
                     <Card.Body className='position-relative text-center'>
                         <a target='_blank' href={ConsentForm} rel="noreferrer">
