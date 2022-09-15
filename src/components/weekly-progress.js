@@ -16,6 +16,9 @@ import Week6pdf from '../pdf/Hadjisaid, Jehan_Week 6 Report.pdf';
 
 import { Card } from 'react-bootstrap';
 import { Col, Row } from 'react-bootstrap';
+import Carousel from "react-multi-carousel";
+import "react-multi-carousel/lib/styles.css";
+
 
 function WeeklyProgress() {
     const report = [
@@ -51,27 +54,62 @@ function WeeklyProgress() {
         }
     ];
 
+    const responsive = {
+        desktop: {
+            breakpoint: { max: 3000, min: 1024 },
+            items: 3,
+            slidesToSlide: 3 // optional, default to 1.
+        },
+        tablet: {
+            breakpoint: { max: 1024, min: 464 },
+            items: 2,
+            slidesToSlide: 2 // optional, default to 1.
+        },
+        mobile: {
+            breakpoint: { max: 464, min: 0 },
+            items: 1,
+            slidesToSlide: 1 // optional, default to 1.
+        }
+    };
+
+
     const ReportCards = report.map((report) =>
-        <Col className='px-auto'>
-            <Card className='mb-3 report-cards'>
-                <Card.Body>
-                    <img src={report.image} alt='Weekly Report' />
-                </Card.Body>
-                <Card.Footer className='text-center'>
-                    <button className='pdf-view-btn'><a href={report.pdf} target="_blank" rel="noreferrer">{report.title}</a></button>
-                </Card.Footer>
-            </Card>
-        </Col>
+        <Card className='mb-5 report-cards shadow'>
+            <Card.Body>
+                <img src={report.image} alt='Weekly Report' />
+            </Card.Body>
+            <Card.Footer className='text-center'>
+                <button className='pdf-view-btn'><a href={report.pdf} target="_blank" rel="noreferrer">{report.title}</a></button>
+            </Card.Footer>
+        </Card>
 
     );
 
 
     return (
         <div className='weekly-progress-container'>
-            <h2>Weekly Progress Report</h2>
-            <Row>
+            <h2 className='mb-4'>Weekly Progress Report</h2>
+
+            <Carousel className='text-center'
+                swipeable={true}
+                draggable={true}
+                showDots={true}
+                responsive={responsive}
+                ssr={true} // means to render carousel on server-side.
+                infinite={true}
+                autoPlay={false}
+                autoPlaySpeed={1500}
+                keyBoardControl={true}
+                customTransition="all .5"
+                transitionDuration={500}
+                containerClass="carousel-container"
+                removeArrowOnDeviceType={["tablet", "mobile"]}
+                dotListClass="custom-dot-list-style"
+                itemClass="carousel-item-padding-40-px"
+            >
                 {ReportCards}
-            </Row>
+            </Carousel>
+
         </div>
     )
 }
