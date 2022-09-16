@@ -3,51 +3,67 @@ import './App.scss';
 import WeekReport from './components/weekly-progress';
 import Profile from './components/profile';
 import CompanyProfile from './components/company-profile';
-import Navbar from './components/navbar';
+//import Navbar from './components/navbar';
 import Assessment from './components/assessment';
 import Evidences from './components/evidences';
-
-import { Col, Row, Tab, Tabs } from 'react-bootstrap';
+import PUP from './images/PUPLogo.png';
+//import { Col, Row, Tab, Tabs } from 'react-bootstrap';
+import { FaTimes } from 'react-icons/fa';
 
 function App() {
-  const [key, setKey] = useState('company'); //useState for Tabs
+  const [page, setPage] = useState('company');
+
+  const [isActive, setIsActive] = useState(false);
+
+  const handleToggle = (event) => {
+    //toggle isActive state on click
+    setIsActive(current => !current);
+  };
+
   return (
     <div className='App'>
-      <Navbar />
-      <Profile />
-      <div className='contents-container'>
-        <Tabs
-          id="lawyers-controlled-tab"
-          activeKey={key}
-          onSelect={(k) => setKey(k)}
-          className="contents-container-tab fw-bold"
-        >
-          <Tab eventKey="company" title="Company Profile">
-            <div className='content-tab'>
-              <CompanyProfile />
-            </div>
-          </Tab>
 
-          <Tab eventKey="report" title="Weekly Progress Report">
-            <div className='content-tab'>
-              <WeekReport />
-            </div>
-          </Tab>
+      <div className='top-navbar d-flex'>
+        <div className='title-nav-container d-flex align-items-center'>
+          <img src={PUP} alt='PUP' height={40} />
+          <h3 className='my-0 mx-2'>OJT2 Portfolio</h3>
+        </div>
 
-          <Tab eventKey="assessment" title="Assessment">
-            <div className='content-tab'>
-              <Assessment/>
-            </div>
-          </Tab>
+        <a href="#!" class="hamburger-button" onClick={() => handleToggle(true)}>
+          <span className={isActive ? 'hamburger hidden' : 'hamburger'}></span>
+          <span className={isActive ? 'hamburger hidden' : 'hamburger'}></span>
+          <span className={isActive ? 'hamburger hidden' : 'hamburger'}></span>
+          <FaTimes className={isActive ? 'nav-close' : 'hidden'} />
+        </a>
 
-          <Tab eventKey="evidences" title="Evidences">
-            <div className='content-tab'>
-              <Evidences/>
-            </div>
-          </Tab>
-        </Tabs>
 
+        <div className={isActive ? 'links-nav-container d-flex' : 'links-nav-container d-flex hidden'}>
+          <button className={page === 'company' ? 'link-btn link-active' : 'link-btn'} onClick={() => setPage('company')}>Company Profile</button>
+          <button className={page === 'reports' ? 'link-btn link-active' : 'link-btn'} onClick={() => setPage('reports')}>Reports</button>
+          <button className={page === 'assessment' ? 'link-btn link-active' : 'link-btn'} onClick={() => setPage('assessment')}>Assessment</button>
+          <button className={page === 'evidences' ? 'link-btn link-active' : 'link-btn'} onClick={() => setPage('evidences')}>Documents</button>
+        </div>
       </div>
+
+      <Profile />
+
+      <div className='contents-container'>
+        {(() => {
+          switch (page) {
+            case 'company':
+              return <CompanyProfile />
+            case 'reports':
+              return <WeekReport />
+            case 'assessment':
+              return <Assessment />
+            case 'evidences':
+              return <Evidences />
+            default:
+              return <CompanyProfile />
+          }
+        })()}
+      </div>
+
     </div>
   );
 }

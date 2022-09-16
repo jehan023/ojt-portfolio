@@ -31,11 +31,54 @@
   height: 60px;
   width: 100%;
   padding: 10px 20px;
-  //border-bottom: 1px solid #FAF8F5;
+  justify-content: space-between;
   color: #faf8f5;
   position: fixed;
   top: 0;
   z-index: 10;
+  align-items: center;
+  .link-btn {
+    border: none;
+    margin-right: 15px;
+    color: #faf8f5;
+    background-color: #24242c;
+    font-family: "Gotham Medium";
+  }
+  .link-active {
+    color: #ff9c07;
+    border-bottom: 3px solid #ff9c07;
+    font-family: "Gotham Medium";
+    font-weight: bold;
+  }
+
+  .hamburger-button {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    //height: 21px;
+  }
+
+  .hamburger-button .hamburger {
+    height: 5px;
+    width: 100%;
+    background-color: #faf8f5;
+    border-radius: 10px;
+  }
+
+  .hamburger-button .hamburger:nth-child(2) {
+    margin: 5px 0px;
+  }
+
+  .nav-close {
+    color: #faf8f5;
+    width: 30px;
+    //height: 21px;
+    font-size: 25px;
+  }
 }
 
 .profile-container {
@@ -421,12 +464,46 @@
     }
   }
 
+  .top-navbar {
+    flex-direction: column;
+    padding: 10px 0px !important;
+    align-items: flex-start !important;
+    .title-nav-container {
+      margin-left: 20px;
+    }
+    .hamburger-button {
+      display: flex;
+      cursor: pointer;
+      z-index: 999;
+    }
+    .links-nav-container {
+      flex-direction: column;
+      width: 100%;
+      margin-top: 10px!important;
+
+      .link-btn {
+        margin: 0px !important;
+        height: 50px;
+      }
+    }
+    .hidden {
+      display: none !important;
+    }
+  }
+
+  .profile-container {
+    .profile-name {
+      color: #ffaa2c;
+      background-color: #24242c;
+    }
+  }
+
   .company-profile-container {
     padding: 50px 20px;
-  
+
     .company-profile-content {
-      flex-direction: column; 
-  
+      flex-direction: column;
+
       p:before {
         border: none;
       }
@@ -437,7 +514,7 @@
         margin-right: 30px;
       }
     }
-  
+
     .mv-container {
       flex-direction: column;
       .card-body {
@@ -465,7 +542,7 @@
       flex-direction: column;
       margin-top: 15px !important;
     }
-  
+
     .company-details {
       flex-direction: column;
       p {
@@ -557,7 +634,4 @@
       margin: 15px auto;
     }
   }
-
-
-  
 }
