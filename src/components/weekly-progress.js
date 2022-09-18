@@ -15,7 +15,6 @@ import Week5pdf from '../pdf/Hadjisaid, Jehan_Week 5 Report.pdf';
 import Week6pdf from '../pdf/Hadjisaid, Jehan_Week 6 Report.pdf';
 
 import { Card } from 'react-bootstrap';
-import { Col, Row } from 'react-bootstrap';
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 

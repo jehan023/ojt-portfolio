@@ -328,6 +328,10 @@
     padding: 0px 15px;
     background-color: #faf8f575;
     box-shadow: 10px 10px 0px #888888;
+    .js-question {
+      padding-left: 1.3em;
+      padding-right: 1.3em;
+    }
     p {
       margin: 5px 0;
       color: #333a44;
@@ -370,9 +374,17 @@
       }
     }
     .demo-btn:hover {
-      position: absolute;
-      bottom: 15px;
-      box-shadow: none;
+      background-color: #ff9c07;
+      a {
+        color: #333a44;
+        font-family: "Gotham Bold";
+      }
+    }
+
+    .demo-btn:active {
+      background-color: #ff9c07;
+      box-shadow: 0 5px #666;
+      transform: translateY(4px);
     }
   }
   .target-icon {
@@ -479,7 +491,7 @@
     .links-nav-container {
       flex-direction: column;
       width: 100%;
-      margin-top: 10px!important;
+      margin-top: 10px !important;
 
       .link-btn {
         margin: 0px !important;
@@ -619,6 +631,10 @@
             color: #f1502f;
           }
         }
+      }
+      
+      .gh-buttons {
+        margin-bottom: 20px;
       }
     }
   }

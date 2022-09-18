@@ -3,11 +3,9 @@ import './App.scss';
 import WeekReport from './components/weekly-progress';
 import Profile from './components/profile';
 import CompanyProfile from './components/company-profile';
-//import Navbar from './components/navbar';
 import Assessment from './components/assessment';
 import Evidences from './components/evidences';
 import PUP from './images/PUPLogo.png';
-//import { Col, Row, Tab, Tabs } from 'react-bootstrap';
 import { FaTimes } from 'react-icons/fa';
 
 function App() {
@@ -38,10 +36,10 @@ function App() {
 
 
         <div className={isActive ? 'links-nav-container d-flex' : 'links-nav-container d-flex hidden'}>
-          <button className={page === 'company' ? 'link-btn link-active' : 'link-btn'} onClick={() => setPage('company')}>Company Profile</button>
-          <button className={page === 'reports' ? 'link-btn link-active' : 'link-btn'} onClick={() => setPage('reports')}>Reports</button>
-          <button className={page === 'assessment' ? 'link-btn link-active' : 'link-btn'} onClick={() => setPage('assessment')}>Assessment</button>
-          <button className={page === 'evidences' ? 'link-btn link-active' : 'link-btn'} onClick={() => setPage('evidences')}>Documents</button>
+          <button className={page === 'company' ? 'link-btn link-active' : 'link-btn'} onClick={() => {setPage('company'); setIsActive(false)}}>Company Profile</button>
+          <button className={page === 'reports' ? 'link-btn link-active' : 'link-btn'} onClick={() => {setPage('reports'); setIsActive(false)}}>Reports</button>
+          <button className={page === 'assessment' ? 'link-btn link-active' : 'link-btn'} onClick={() => {setPage('assessment'); setIsActive(false)}}>Assessment</button>
+          <button className={page === 'evidences' ? 'link-btn link-active' : 'link-btn'} onClick={() => {setPage('evidences'); setIsActive(false)}}>Documents</button>
         </div>
       </div>
 
