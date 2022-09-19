@@ -133,7 +133,7 @@ function CompanyProfile() {
                     <img src={CEO} alt='ceo' className='ceo-img' />
                     <div className='ceo-details'>
                         <p className='ceo-name fw-bold'>Atty. Marlon Valderama</p>
-                        <p className='ceo-position'>President, CEO</p>
+                        <p className='ceo-position'>President and CEO</p>
                         <p className='ceo-position'>LexMeet, Inc.</p>
                     </div>
                 </div>

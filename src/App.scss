@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 .App {
   background-color: #dfdacd;
   position: relative;
@@ -418,11 +421,12 @@
 
 .evidences-container {
   padding: 50px 180px;
-  p {
+  p, ul li {
     color: #333a44;
     font-family: "Gotham Book";
   }
   .task-cards {
+    width: 25% !important;
     .project-btn {
       background-color: #ff9c07;
       padding: 8px 20px;
@@ -448,10 +452,22 @@
     }
   }
 
+  .cert-card {
+    box-shadow: 10px 10px 0px #888888;
+
+    img {
+      max-width: 100%;
+      max-height: 100%;
+      display: block;
+      border-radius: 8px;
+    }
+  }
+
   .docx-card {
-    width: 200px;
+    width: 18%;
     box-shadow: 10px 10px 0px #888888;
     margin-right: 20px;
+    margin-bottom: 20px;
 
     .card-body {
       padding: 0px;
@@ -471,6 +487,7 @@
       border-bottom-right-radius: 5px;
       width: 100%;
       height: 30%;
+      padding: 10px 25px;
 
       p {
         color: #333a44;
@@ -673,10 +690,16 @@
     .evidences-content {
       flex-direction: column;
     }
+    .task-cards {
+      width: 100% !important;
+    }
     .docx-card {
-      width: 200px;
+      width: 100%;
       box-shadow: 10px 10px 0px #888888;
       margin: 15px auto;
+      p {
+        font-size: 35px !important;
+      }
     }
   }
 }
