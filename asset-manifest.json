@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.c690f252.css",
-    "main.js": "/portfolio/static/js/main.950c0a5d.js",
+    "main.css": "/portfolio/static/css/main.c87d10eb.css",
+    "main.js": "/portfolio/static/js/main.d8b03ba2.js",
     "static/media/Hadjisaid, Jehan_Week 1 Report.pdf": "/portfolio/static/media/Hadjisaid, Jehan_Week 1 Report.0cfa3f01b45461dcbd4f.pdf",
     "static/media/prevWeek5.jpg": "/portfolio/static/media/prevWeek5.452bd57a43d830ee131d.jpg",
     "static/media/prevLexMeetAgreement.jpg": "/portfolio/static/media/prevLexMeetAgreement.deadf8ee8523584b5f72.jpg",
@@ -9,6 +9,7 @@
     "static/media/prevWeek6.jpg": "/portfolio/static/media/prevWeek6.f8d32d0f21b06275e0ba.jpg",
     "static/media/prevWeek3.jpg": "/portfolio/static/media/prevWeek3.a6b789f9e63b21266a8f.jpg",
     "static/media/prevWeek2.jpg": "/portfolio/static/media/prevWeek2.6e8207a303dd8ab2c02c.jpg",
+    "static/media/HadjisaidJehan_LexmeetCert.pdf": "/portfolio/static/media/HadjisaidJehan_LexmeetCert.8effa4b630dade74b5f1.pdf",
     "static/media/prevWeek1.jpg": "/portfolio/static/media/prevWeek1.caf79463f935f1d548cd.jpg",
     "static/media/prevResume.jpg": "/portfolio/static/media/prevResume.5dc5cc0ef931efb9e79a.jpg",
     "static/media/HadjisaidJehan_LexMeetAgreement.pdf": "/portfolio/static/media/HadjisaidJehan_LexMeetAgreement.20eaf895565572989b07.pdf",
@@ -19,6 +20,7 @@
     "static/media/Git Cheat Sheet.jpg": "/portfolio/static/media/Git Cheat Sheet.2f0daf8c039bd049eadc.jpg",
     "static/media/trello3.jpg": "/portfolio/static/media/trello3.ee70bf92699878b1e400.jpg",
     "static/media/trello2.jpg": "/portfolio/static/media/trello2.c09fb9e6f9ddd6379578.jpg",
+    "static/media/prevCert.jpg": "/portfolio/static/media/prevCert.10485b38a0adc0d71d79.jpg",
     "static/media/prevInternshipAgreement.jpg": "/portfolio/static/media/prevInternshipAgreement.e2352edeae2188841a82.jpg",
     "static/media/Neutral_LexWeb.jpeg": "/portfolio/static/media/Neutral_LexWeb.e4b9baf2563ea51fe25e.jpeg",
     "static/media/JHpic.JPG": "/portfolio/static/media/JHpic.feafb54c3a59227e9336.JPG",
@@ -43,11 +45,11 @@
     "static/media/lexmeet_logo.png": "/portfolio/static/media/lexmeet_logo.84dfbbded1eaaf7cc1c7.png",
     "static/media/revicons.woff": "/portfolio/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/portfolio/index.html",
-    "main.c690f252.css.map": "/portfolio/static/css/main.c690f252.css.map",
-    "main.950c0a5d.js.map": "/portfolio/static/js/main.950c0a5d.js.map"
+    "main.c87d10eb.css.map": "/portfolio/static/css/main.c87d10eb.css.map",
+    "main.d8b03ba2.js.map": "/portfolio/static/js/main.d8b03ba2.js.map"
   },
   "entrypoints": [
-    "static/css/main.c690f252.css",
-    "static/js/main.950c0a5d.js"
+    "static/css/main.c87d10eb.css",
+    "static/js/main.d8b03ba2.js"
   ]
 }
