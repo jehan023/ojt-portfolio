@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.c87d10eb.css",
-    "main.js": "/portfolio/static/js/main.d8b03ba2.js",
+    "main.css": "/portfolio/static/css/main.e5ca636c.css",
+    "main.js": "/portfolio/static/js/main.cab8ac00.js",
     "static/media/Hadjisaid, Jehan_Week 1 Report.pdf": "/portfolio/static/media/Hadjisaid, Jehan_Week 1 Report.0cfa3f01b45461dcbd4f.pdf",
+    "static/media/prevMOA.jpg": "/portfolio/static/media/prevMOA.0b535cb12e2098583377.jpg",
     "static/media/prevWeek5.jpg": "/portfolio/static/media/prevWeek5.452bd57a43d830ee131d.jpg",
     "static/media/prevLexMeetAgreement.jpg": "/portfolio/static/media/prevLexMeetAgreement.deadf8ee8523584b5f72.jpg",
     "static/media/prevWeek4.jpg": "/portfolio/static/media/prevWeek4.520c537a99b05767c83d.jpg",
@@ -25,6 +26,7 @@
     "static/media/Neutral_LexWeb.jpeg": "/portfolio/static/media/Neutral_LexWeb.e4b9baf2563ea51fe25e.jpeg",
     "static/media/JHpic.JPG": "/portfolio/static/media/JHpic.feafb54c3a59227e9336.JPG",
     "static/media/Helvetica.ttf": "/portfolio/static/media/Helvetica.06113bf748ae7dc33e05.ttf",
+    "static/media/Company Profile.pdf": "/portfolio/static/media/Company Profile.bd77a9a708a50b95e2da.pdf",
     "static/media/trello1.jpeg": "/portfolio/static/media/trello1.0cf6dfa1089e47ff3c9d.jpeg",
     "static/media/Hadjisaid, Jehan_Week 4 Report.pdf": "/portfolio/static/media/Hadjisaid, Jehan_Week 4 Report.ebab0800f548cde95464.pdf",
     "static/media/Hadjisaid, Jehan_Week 5 Report.pdf": "/portfolio/static/media/Hadjisaid, Jehan_Week 5 Report.0165559cd1062da24d3f.pdf",
@@ -32,6 +34,7 @@
     "static/media/Hadjisaid, Jehan_Week 6 Report.pdf": "/portfolio/static/media/Hadjisaid, Jehan_Week 6 Report.96186527de6d3885205c.pdf",
     "static/media/Gotham-Bold.otf": "/portfolio/static/media/Gotham-Bold.80d7f100c11c3c63d3dc.otf",
     "static/media/HadjisaidJehan_ConsentForm.pdf": "/portfolio/static/media/HadjisaidJehan_ConsentForm.af5e0741b9a9d81a74e3.pdf",
+    "static/media/INTERNS TASK ASSIGNMENT - TECH GENERAL.pdf": "/portfolio/static/media/INTERNS TASK ASSIGNMENT - TECH GENERAL.0c748c1ddc292c629a23.pdf",
     "static/media/Hadjisaid_Jehan_Resume.pdf": "/portfolio/static/media/Hadjisaid_Jehan_Resume.681ced4287277c847562.pdf",
     "static/media/CEO.jpg": "/portfolio/static/media/CEO.be84b9924f736a70df02.jpg",
     "static/media/GothamMedium.otf": "/portfolio/static/media/GothamMedium.bcd733e6f8ebeb6a5e75.otf",
@@ -45,11 +48,11 @@
     "static/media/lexmeet_logo.png": "/portfolio/static/media/lexmeet_logo.84dfbbded1eaaf7cc1c7.png",
     "static/media/revicons.woff": "/portfolio/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/portfolio/index.html",
-    "main.c87d10eb.css.map": "/portfolio/static/css/main.c87d10eb.css.map",
-    "main.d8b03ba2.js.map": "/portfolio/static/js/main.d8b03ba2.js.map"
+    "main.e5ca636c.css.map": "/portfolio/static/css/main.e5ca636c.css.map",
+    "main.cab8ac00.js.map": "/portfolio/static/js/main.cab8ac00.js.map"
   },
   "entrypoints": [
-    "static/css/main.c87d10eb.css",
-    "static/js/main.d8b03ba2.js"
+    "static/css/main.e5ca636c.css",
+    "static/js/main.cab8ac00.js"
   ]
 }
