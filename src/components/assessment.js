@@ -173,12 +173,12 @@ function Random()
                                 I also learned how to deploy the project using GitHub, which will be helpful for future projects.
                             </p>
                             <div className='d-flex gh-buttons'>
-                                <button className='demo-btn'>
-                                    <a target='_blank' href='https://jehan023.github.io/React-To-Do-App/' rel='noreferrer'>View Demo</a>
-                                </button>
-                                <button className='demo-btn ms-3'>
-                                    <a target='_blank' href='https://github.com/jehan023/React-To-Do-App' rel='noreferrer'>Source Code</a>
-                                </button>
+                                <a target='_blank' href='https://jehan023.github.io/React-To-Do-App/' rel='noreferrer' className='demo-btn'>
+                                    <button>View Demo</button>
+                                </a>
+                                <a target='_blank' href='https://github.com/jehan023/React-To-Do-App' rel='noreferrer' className='demo-btn ms-3'>
+                                    <button>Source Code</button>
+                                </a>
                             </div>
                         </div>
                     </div>

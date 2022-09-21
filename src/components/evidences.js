@@ -124,14 +124,14 @@ function Evidences() {
                 <li>I developed the webpages using React JS, CSS, and Bootstrap.</li>
             </ul>
 
-            <button className='task-qa-btn my-2 me-2'>
-                <a target='_blank' href={InternTasks} rel='noreferrer'>View Tasks</a>
-            </button>
-            <button className='task-qa-btn my-2 me-2'>
-                <a target='_blank' href='https://docs.google.com/spreadsheets/d/10cFmFGC3HE4iMsSdsbWTxakHCQY9zED7AZYmSltmcaY/edit?usp=sharing' rel='noreferrer'>View Team QA</a>
-            </button>
+            <a target='_blank' href={InternTasks} rel='noreferrer' className='task-qa-btn'>
+                <button>View Tasks</button>
+            </a>
+            <a target='_blank' href='https://docs.google.com/spreadsheets/d/10cFmFGC3HE4iMsSdsbWTxakHCQY9zED7AZYmSltmcaY/edit?usp=sharing' rel='noreferrer' className='task-qa-btn'>
+                <button>View Team QA</button>
+            </a>
 
-            <p className='mt-1 fw-bold'>**Some photos are included in the Weekly Reports</p>
+            <p className='mt-3 fw-bold'>**Some photos are included in the Weekly Reports</p>
 
             <div className='certificate-container mt-4'>
                 <h3 className='text-center'>Certificate of Completion</h3>

@@ -22,9 +22,9 @@ function CompanyProfile() {
                     <br /><br />
                     Our company's tagline is "Legal help in a click". We want to use technology to help our legal professionals and at the same time pave the way to help people at large to solve their legal problems by providing a digital platform for them to meet.
                     <br />
-                    <button className='company-profile-btn my-2 me-2'>
-                        <a target='_blank' href={CompProfile} rel='noreferrer'>Read More</a>
-                    </button>
+                    <a target='_blank' href={CompProfile} rel='noreferrer' className='company-profile-btn my-2 me-2'>
+                        <button>Read More</button>
+                    </a>
                 </p>
             </div>
 
