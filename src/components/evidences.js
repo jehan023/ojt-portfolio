@@ -128,7 +128,7 @@ function Evidences() {
                 <a target='_blank' href={InternTasks} rel='noreferrer'>View Tasks</a>
             </button>
             <button className='task-qa-btn my-2 me-2'>
-                <a href='https://docs.google.com/spreadsheets/d/10cFmFGC3HE4iMsSdsbWTxakHCQY9zED7AZYmSltmcaY/edit?usp=sharing' rel='noreferrer'>View Team QA</a>
+                <a target='_blank' href='https://docs.google.com/spreadsheets/d/10cFmFGC3HE4iMsSdsbWTxakHCQY9zED7AZYmSltmcaY/edit?usp=sharing' rel='noreferrer'>View Team QA</a>
             </button>
 
             <p className='mt-1 fw-bold'>**Some photos are included in the Weekly Reports</p>
