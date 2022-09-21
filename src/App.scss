@@ -113,7 +113,7 @@
       font-size: 1.5em;
     }
     a:hover {
-      color: #ff9c07;
+      color: #f4512c;
     }
   }
 }
@@ -151,6 +151,26 @@
       padding: 10px;
       border-radius: 10px;
       margin-right: 30px;
+    }
+    .company-profile-btn {
+      background-color: #333a44;
+      padding: 8px 20px;
+      border-radius: 10px;
+      border: none;
+      box-shadow: 0px 5px 0px #888888;
+      float: right;
+      a {
+        text-decoration: none;
+        color: #faf8f5;
+        font-family: "Gotham Medium";
+      }
+    }
+    .company-profile-btn:hover {
+      background-color: #ff9c07;
+      a {
+        color: #333a44;
+        font-family: "Gotham Bold";
+      }
     }
   }
 
@@ -219,7 +239,11 @@
     ul li p a {
       text-decoration: none;
       margin-left: 8px;
-      color: #ff9c07;
+      color: #f4512c;
+    }
+    ul li p a:hover {
+      color: purple;
+      font-weight: 600;
     }
   }
 
@@ -421,7 +445,29 @@
 
 .evidences-container {
   padding: 50px 180px;
-  p, ul li {
+  .task-qa-btn {
+    background-color: #333a44;
+    padding: 8px 20px;
+    border-radius: 10px;
+    margin-top: 15px;
+    border: none;
+    box-shadow: 0px 5px 0px #888888;
+    a {
+      text-decoration: none;
+      color: #faf8f5;
+      font-family: "Gotham Medium";
+    }
+  }
+  .task-qa-btn:hover {
+    background-color: #ff9c07;
+    a {
+      color: #333a44;
+      font-family: "Gotham Bold";
+    }
+  }
+
+  p,
+  ul li {
     color: #333a44;
     font-family: "Gotham Book";
   }
@@ -553,6 +599,14 @@
     .profile-name {
       color: #ffaa2c;
       background-color: #24242c;
+    }
+    .contact-links {
+      justify-content: center;
+      a {
+        color: #f4512c;
+        margin: 0 8px;
+        font-size: 1.5em;
+      }
     }
   }
 

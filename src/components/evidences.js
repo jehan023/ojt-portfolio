@@ -4,12 +4,14 @@ import prevConsentForm from '../images/prevConsentForm.jpg';
 import prevInternshipAgreement from '../images/prevInternshipAgreement.jpg';
 import prevLexMeetAgreement from '../images/prevLexMeetAgreement.jpg'
 import prevResume from '../images/prevResume.jpg';
+import prevMOA from '../images/prevMOA.jpg';
 
 import ConsentForm from '../pdf/HadjisaidJehan_ConsentForm.pdf';
 import InternshipAgreement from '../pdf/HadjisaidJehan_InternshipAgreement.pdf';
 import LexMeetAgreement from '../pdf/HadjisaidJehan_LexMeetAgreement.pdf';
 import Resume from '../pdf/Hadjisaid_Jehan_Resume.pdf';
 import Cert from '../pdf/HadjisaidJehan_LexmeetCert.pdf';
+import InternTasks from '../pdf/INTERNS TASK ASSIGNMENT - TECH GENERAL.pdf';
 
 import Trello1 from '../images/trello1.jpeg';
 import Trello2 from '../images/trello2.jpg';
@@ -70,10 +72,10 @@ function Evidences() {
                 <Card className='docx-card'>
                     <Card.Body className='position-relative text-center'>
                         <a href='#!' rel="noreferrer">
-                            <img src={prevLexMeetAgreement} alt='moa' />
+                            <img src={prevMOA} alt='moa' />
                         </a>
                         <div className='position-absolute docx-name'>
-                            <p className='h4 m-0'>MOA <br />(waiting file)</p>
+                            <p className='h4 m-0'>MOA<br />(waiting file)</p>
                         </div>
                     </Card.Body>
                 </Card>
@@ -121,6 +123,13 @@ function Evidences() {
                 <li>I am assigned to LexWeb Neutral Template Website as a front-end developer.</li>
                 <li>I developed the webpages using React JS, CSS, and Bootstrap.</li>
             </ul>
+
+            <button className='task-qa-btn my-2 me-2'>
+                <a target='_blank' href={InternTasks} rel='noreferrer'>View Tasks</a>
+            </button>
+            <button className='task-qa-btn my-2 me-2'>
+                <a href='https://docs.google.com/spreadsheets/d/10cFmFGC3HE4iMsSdsbWTxakHCQY9zED7AZYmSltmcaY/edit?usp=sharing' rel='noreferrer'>View Team QA</a>
+            </button>
 
             <p className='mt-1 fw-bold'>**Some photos are included in the Weekly Reports</p>
 

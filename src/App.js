@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import './App.scss';
 import WeekReport from './components/weekly-progress';
 import Profile from './components/profile';
@@ -9,12 +9,24 @@ import PUP from './images/PUPLogo.png';
 import { FaTimes } from 'react-icons/fa';
 
 function App() {
-  const [page, setPage] = useState('company');
+  //const [page, setPage] = useState('');
+
+  const [page, setPage] = useState(() => {
+    const savedPage = window.sessionStorage.getItem("page");
+    if (savedPage) {
+      return String(savedPage);
+    } else {
+      return 'company';
+    }
+  });
+
+  useEffect(() => {
+    window.sessionStorage.setItem("page", page);
+  }, [page]);
 
   const [isActive, setIsActive] = useState(false);
 
   const handleToggle = (event) => {
-    //toggle isActive state on click
     setIsActive(current => !current);
   };
 
@@ -36,10 +48,10 @@ function App() {
 
 
         <div className={isActive ? 'links-nav-container d-flex' : 'links-nav-container d-flex hidden'}>
-          <button className={page === 'company' ? 'link-btn link-active' : 'link-btn'} onClick={() => {setPage('company'); setIsActive(false)}}>Company Profile</button>
-          <button className={page === 'reports' ? 'link-btn link-active' : 'link-btn'} onClick={() => {setPage('reports'); setIsActive(false)}}>Reports</button>
-          <button className={page === 'assessment' ? 'link-btn link-active' : 'link-btn'} onClick={() => {setPage('assessment'); setIsActive(false)}}>Assessment</button>
-          <button className={page === 'evidences' ? 'link-btn link-active' : 'link-btn'} onClick={() => {setPage('evidences'); setIsActive(false)}}>Documents</button>
+          <button className={page === 'company' ? 'link-btn link-active' : 'link-btn'} onClick={() => { setPage('company'); setIsActive(false) }}>Company Profile</button>
+          <button className={page === 'reports' ? 'link-btn link-active' : 'link-btn'} onClick={() => { setPage('reports'); setIsActive(false) }}>Reports</button>
+          <button className={page === 'assessment' ? 'link-btn link-active' : 'link-btn'} onClick={() => { setPage('assessment'); setIsActive(false) }}>Assessment</button>
+          <button className={page === 'evidences' ? 'link-btn link-active' : 'link-btn'} onClick={() => { setPage('evidences'); setIsActive(false) }}>Documents</button>
         </div>
       </div>
 

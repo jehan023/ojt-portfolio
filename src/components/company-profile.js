@@ -5,6 +5,7 @@ import { FaFacebook, FaYoutube, FaTwitter, FaLinkedin, FaHandshake, FaMapMarkerA
 import { FiTarget } from "react-icons/fi";
 import { GrInstagram } from "react-icons/gr";
 import CEO from '../images/CEO.jpg';
+import CompProfile from '../pdf/Company Profile.pdf';
 
 function CompanyProfile() {
     return (
@@ -20,6 +21,10 @@ function CompanyProfile() {
                     Thus, LexMeet is the meeting together of lawyers and clients to solve legal problems or discuss legal matters.
                     <br /><br />
                     Our company's tagline is "Legal help in a click". We want to use technology to help our legal professionals and at the same time pave the way to help people at large to solve their legal problems by providing a digital platform for them to meet.
+                    <br />
+                    <button className='company-profile-btn my-2 me-2'>
+                        <a target='_blank' href={CompProfile} rel='noreferrer'>Read More</a>
+                    </button>
                 </p>
             </div>
 
@@ -62,7 +67,7 @@ function CompanyProfile() {
                     <div className='company-details d-flex'>
                         <div className='company-address'>
                             <h2><a target='_blank' className='address-map' href='https://g.page/lexmeet-legal-help-in-a-click?share' rel="noreferrer">
-                                <FaMapMarkerAlt className='map-icon'/>Address</a>
+                                <FaMapMarkerAlt className='map-icon' />Address</a>
                             </h2>
                             <p>LexMeet, Inc.</p>
                             <p>Unit 608, 6th floor</p>
