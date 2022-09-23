@@ -5,6 +5,7 @@ import prevInternshipAgreement from '../images/prevInternshipAgreement.jpg';
 import prevLexMeetAgreement from '../images/prevLexMeetAgreement.jpg'
 import prevResume from '../images/prevResume.jpg';
 import prevMOA from '../images/prevMOA.jpg';
+import prevEndorsement from '../images/prevEndorsement.jpg';
 
 import ConsentForm from '../pdf/HadjisaidJehan_ConsentForm.pdf';
 import InternshipAgreement from '../pdf/HadjisaidJehan_InternshipAgreement.pdf';
@@ -23,7 +24,7 @@ function Evidences() {
     return (
         <div className='evidences-container'>
             <h2>Evidences</h2>
-            <h3 className='text-center'>Documents</h3>
+            <h3 className='text-center mb-4'>Documents</h3>
             <div className='d-flex flex-wrap justify-content-between evidences-content'>
                 <Card className='docx-card'>
                     <Card.Body className='position-relative text-center'>
@@ -31,7 +32,18 @@ function Evidences() {
                             <img src={prevResume} alt='resume' />
                         </a>
                         <div className='position-absolute docx-name'>
-                            <p className='h4 m-0'>Resume</p>
+                            <p className='h1 m-0'>Resume</p>
+                        </div>
+                    </Card.Body>
+                </Card>
+
+                <Card className='docx-card'>
+                    <Card.Body className='position-relative text-center'>
+                        <a target='_blank' href={Resume} rel="noreferrer">
+                            <img src={prevEndorsement} alt='endoresement letter' />
+                        </a>
+                        <div className='position-absolute docx-name'>
+                            <p className='h1 m-0'>Endorsement Letter</p>
                         </div>
                     </Card.Body>
                 </Card>
@@ -42,7 +54,7 @@ function Evidences() {
                             <img src={prevConsentForm} alt='consent form' />
                         </a>
                         <div className='position-absolute docx-name'>
-                            <p className='h4 m-0'>Consent Form</p>
+                            <p className='h1 m-0'>Consent Form</p>
                         </div>
                     </Card.Body>
                 </Card>
@@ -53,7 +65,7 @@ function Evidences() {
                             <img src={prevInternshipAgreement} alt='internship agreement' />
                         </a>
                         <div className='position-absolute docx-name'>
-                            <p className='h4 m-0'>Internship Agreement</p>
+                            <p className='h1 m-0'>Internship Agreement</p>
                         </div>
                     </Card.Body>
                 </Card>
@@ -64,7 +76,7 @@ function Evidences() {
                             <img src={prevLexMeetAgreement} alt='lexmeet agreement' />
                         </a>
                         <div className='position-absolute docx-name'>
-                            <p className='h4 m-0'>LexMeet Agreement</p>
+                            <p className='h1 m-0'>LexMeet Agreement</p>
                         </div>
                     </Card.Body>
                 </Card>
@@ -75,13 +87,14 @@ function Evidences() {
                             <img src={prevMOA} alt='moa' />
                         </a>
                         <div className='position-absolute docx-name'>
-                            <p className='h4 m-0'>MOA<br />(waiting file)</p>
+                            <p className='h1 m-0'>MOA</p>
+                            <p className='h6 m-0 note-title'>(On request at CCIS)</p>
                         </div>
                     </Card.Body>
                 </Card>
             </div>
 
-            <h3 className='text-center mt-4'>Tasks and Output</h3>
+            <h3 className='text-center my-4'>Tasks and Output</h3>
             <div className='d-flex evidences-content justify-content-between'>
                 <Card className='docx-card task-cards'>
                     <Card.Body className='position-relative text-center'>
@@ -133,8 +146,8 @@ function Evidences() {
 
             <p className='mt-3 fw-bold'>**Some photos are included in the Weekly Reports</p>
 
-            <div className='certificate-container mt-4'>
-                <h3 className='text-center'>Certificate of Completion</h3>
+            <div className='certificate-container'>
+                <h3 className='text-center my-4'>Certificate of Completion</h3>
                 <Card className='cert-card'>
                     <Card.Body>
                         <a target='_blank' href={Cert} rel="noreferrer">
