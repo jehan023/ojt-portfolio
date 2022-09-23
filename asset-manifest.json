@@ -1,9 +1,9 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.c179cba7.css",
-    "main.js": "/portfolio/static/js/main.bd0aeba9.js",
+    "main.css": "/portfolio/static/css/main.25e0354a.css",
+    "main.js": "/portfolio/static/js/main.7c4067fa.js",
     "static/media/Hadjisaid, Jehan_Week 1 Report.pdf": "/portfolio/static/media/Hadjisaid, Jehan_Week 1 Report.0cfa3f01b45461dcbd4f.pdf",
-    "static/media/prevMOA.jpg": "/portfolio/static/media/prevMOA.0b535cb12e2098583377.jpg",
+    "static/media/prevMOA.jpg": "/portfolio/static/media/prevMOA.f2b6938d6ac5e6700754.jpg",
     "static/media/prevWeek5.jpg": "/portfolio/static/media/prevWeek5.452bd57a43d830ee131d.jpg",
     "static/media/prevLexMeetAgreement.jpg": "/portfolio/static/media/prevLexMeetAgreement.deadf8ee8523584b5f72.jpg",
     "static/media/prevWeek4.jpg": "/portfolio/static/media/prevWeek4.520c537a99b05767c83d.jpg",
@@ -15,6 +15,7 @@
     "static/media/prevResume.jpg": "/portfolio/static/media/prevResume.5dc5cc0ef931efb9e79a.jpg",
     "static/media/HadjisaidJehan_LexMeetAgreement.pdf": "/portfolio/static/media/HadjisaidJehan_LexMeetAgreement.20eaf895565572989b07.pdf",
     "static/media/IMG_1976.JPG": "/portfolio/static/media/IMG_1976.ec9186a2bb33691ca0f5.JPG",
+    "static/media/prevEndorsement.jpg": "/portfolio/static/media/prevEndorsement.b71af047f6b2ef0ed54e.jpg",
     "static/media/HadjisaidJehan_InternshipAgreement.pdf": "/portfolio/static/media/HadjisaidJehan_InternshipAgreement.3db59f8f54092a68453b.pdf",
     "static/media/prevConsentForm.jpg": "/portfolio/static/media/prevConsentForm.836dd1bad7820bb51de4.jpg",
     "static/media/Hadjisaid, Jehan_Week 2 Report.pdf": "/portfolio/static/media/Hadjisaid, Jehan_Week 2 Report.ea7157a05d80dc80cbee.pdf",
@@ -48,11 +49,11 @@
     "static/media/lexmeet_logo.png": "/portfolio/static/media/lexmeet_logo.84dfbbded1eaaf7cc1c7.png",
     "static/media/revicons.woff": "/portfolio/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/portfolio/index.html",
-    "main.c179cba7.css.map": "/portfolio/static/css/main.c179cba7.css.map",
-    "main.bd0aeba9.js.map": "/portfolio/static/js/main.bd0aeba9.js.map"
+    "main.25e0354a.css.map": "/portfolio/static/css/main.25e0354a.css.map",
+    "main.7c4067fa.js.map": "/portfolio/static/js/main.7c4067fa.js.map"
   },
   "entrypoints": [
-    "static/css/main.c179cba7.css",
-    "static/js/main.bd0aeba9.js"
+    "static/css/main.25e0354a.css",
+    "static/js/main.7c4067fa.js"
   ]
 }
