@@ -31,7 +31,7 @@ function Evidences() {
                         <a target='_blank' href={Resume} rel="noreferrer">
                             <img src={prevResume} alt='resume' />
                         </a>
-                        <div className='position-absolute docx-name'>
+                        <div className='position-absolute docx-name align-items-center'>
                             <p className='h1 m-0'>Resume</p>
                         </div>
                     </Card.Body>
