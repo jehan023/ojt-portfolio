@@ -23,7 +23,7 @@ import CertCompletion from '../images/prevCert.jpg';
 function Evidences() {
     return (
         <div className='evidences-container'>
-            <h2>Evidences</h2>
+            <h1>Evidences</h1>
             <h3 className='text-center mb-4'>Documents</h3>
             <div className='d-flex flex-wrap justify-content-between evidences-content'>
                 <Card className='docx-card'>
@@ -32,7 +32,7 @@ function Evidences() {
                             <img src={prevResume} alt='resume' />
                         </a>
                         <div className='position-absolute docx-name align-items-center'>
-                            <p className='h1 m-0'>Resume</p>
+                            <p className='h2 m-0'>Resume</p>
                         </div>
                     </Card.Body>
                 </Card>
@@ -43,7 +43,7 @@ function Evidences() {
                             <img src={prevEndorsement} alt='endoresement letter' />
                         </a>
                         <div className='position-absolute docx-name'>
-                            <p className='h1 m-0'>Endorsement Letter</p>
+                            <p className=' m-0'>Endorsement Letter</p>
                         </div>
                     </Card.Body>
                 </Card>
@@ -54,7 +54,7 @@ function Evidences() {
                             <img src={prevConsentForm} alt='consent form' />
                         </a>
                         <div className='position-absolute docx-name'>
-                            <p className='h1 m-0'>Consent Form</p>
+                            <p className='h2 m-0'>Consent Form</p>
                         </div>
                     </Card.Body>
                 </Card>
@@ -65,7 +65,7 @@ function Evidences() {
                             <img src={prevInternshipAgreement} alt='internship agreement' />
                         </a>
                         <div className='position-absolute docx-name'>
-                            <p className='h1 m-0'>Internship Agreement</p>
+                            <p className='h2 m-0'>Internship Agreement</p>
                         </div>
                     </Card.Body>
                 </Card>
@@ -76,7 +76,7 @@ function Evidences() {
                             <img src={prevLexMeetAgreement} alt='lexmeet agreement' />
                         </a>
                         <div className='position-absolute docx-name'>
-                            <p className='h1 m-0'>LexMeet Agreement</p>
+                            <p className='h2 m-0'>LexMeet Agreement</p>
                         </div>
                     </Card.Body>
                 </Card>
@@ -87,7 +87,7 @@ function Evidences() {
                             <img src={prevMOA} alt='moa' />
                         </a>
                         <div className='position-absolute docx-name'>
-                            <p className='h1 m-0'>MOA</p>
+                            <p className='h2 m-0'>MOA</p>
                             <p className='h6 m-0 note-title'>(On request at CCIS)</p>
                         </div>
                     </Card.Body>

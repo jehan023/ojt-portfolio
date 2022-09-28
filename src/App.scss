@@ -538,13 +538,16 @@
 
       p {
         color: #333a44;
-        font-family: "Gotham Medium";
+        font-family: "Gotham Bold";
+        font-size: 4.5vh;
       }
 
       .note-title {
         background-color: #333a44;
         color: #faf8f5;
         border-radius: 10px;
+        font-size: 1vw;
+        padding: 10px;
 
       }
     }
@@ -767,7 +770,7 @@
       }
       .note-title {
         font-size: 1.3em !important;
-        padding: 15px;
+        padding: 10px;
       }
     }
   }

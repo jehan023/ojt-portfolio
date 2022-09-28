@@ -16,7 +16,7 @@ function Assessment() {
 
     return (
         <div className='assessment-container'>
-            <h2>Assessment</h2>
+            <h1>Assessment</h1>
             <Card className='question-card'>
                 <Card.Body>
                     <h5>What you've learned from this experience?</h5>

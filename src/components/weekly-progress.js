@@ -89,7 +89,7 @@ function WeeklyProgress() {
 
     return (
         <div className='weekly-progress-container'>
-            <h2 className='mb-4'>Weekly Progress Report</h2>
+            <h1 className='mb-4'>Weekly Progress Report</h1>
 
             <Carousel className='text-center'
                 swipeable={true}

@@ -51,7 +51,7 @@ function App() {
           <button className={page === 'company' ? 'link-btn link-active' : 'link-btn'} onClick={() => { setPage('company'); setIsActive(false) }}>Company Profile</button>
           <button className={page === 'reports' ? 'link-btn link-active' : 'link-btn'} onClick={() => { setPage('reports'); setIsActive(false) }}>Reports</button>
           <button className={page === 'assessment' ? 'link-btn link-active' : 'link-btn'} onClick={() => { setPage('assessment'); setIsActive(false) }}>Assessment</button>
-          <button className={page === 'evidences' ? 'link-btn link-active' : 'link-btn'} onClick={() => { setPage('evidences'); setIsActive(false) }}>Documents</button>
+          <button className={page === 'evidences' ? 'link-btn link-active' : 'link-btn'} onClick={() => { setPage('evidences'); setIsActive(false) }}>Evidences</button>
         </div>
       </div>
 

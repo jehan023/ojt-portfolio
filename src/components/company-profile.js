@@ -10,7 +10,7 @@ import CompProfile from '../pdf/Company Profile.pdf';
 function CompanyProfile() {
     return (
         <div className='company-profile-container'>
-            <h2>Company Profile</h2>
+            <h1>Company Profile</h1>
             <div className='company-profile-content d-flex'>
                 <img src={LexMeet} alt='company' width={150} height={150} />
 
