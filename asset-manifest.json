@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.38456370.css",
-    "main.js": "/portfolio/static/js/main.1ec285d5.js",
+    "main.css": "/portfolio/static/css/main.5a0d768e.css",
+    "main.js": "/portfolio/static/js/main.5f52c8d9.js",
     "static/media/Hadjisaid, Jehan_Week 1 Report.pdf": "/portfolio/static/media/Hadjisaid, Jehan_Week 1 Report.0cfa3f01b45461dcbd4f.pdf",
     "static/media/prevMOA.jpg": "/portfolio/static/media/prevMOA.f2b6938d6ac5e6700754.jpg",
     "static/media/prevWeek5.jpg": "/portfolio/static/media/prevWeek5.452bd57a43d830ee131d.jpg",
@@ -49,11 +49,11 @@
     "static/media/lexmeet_logo.png": "/portfolio/static/media/lexmeet_logo.84dfbbded1eaaf7cc1c7.png",
     "static/media/revicons.woff": "/portfolio/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/portfolio/index.html",
-    "main.38456370.css.map": "/portfolio/static/css/main.38456370.css.map",
-    "main.1ec285d5.js.map": "/portfolio/static/js/main.1ec285d5.js.map"
+    "main.5a0d768e.css.map": "/portfolio/static/css/main.5a0d768e.css.map",
+    "main.5f52c8d9.js.map": "/portfolio/static/js/main.5f52c8d9.js.map"
   },
   "entrypoints": [
-    "static/css/main.38456370.css",
-    "static/js/main.1ec285d5.js"
+    "static/css/main.5a0d768e.css",
+    "static/js/main.5f52c8d9.js"
   ]
 }
