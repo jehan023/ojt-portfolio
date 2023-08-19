@@ -1,6 +1,6 @@
 {
-  "homepage": "http://jehan023.github.io/portfolio",
-  "name": "e-portfolio",
+  "homepage": "http://jehan023.github.io/ojt-portfolio",
+  "name": "ojt-portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
